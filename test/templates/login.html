@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet"  href="loginscreen.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Neonderthaw&family=Neucha&family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://cutewallpaper.org/22/usf-wallpapers/348314128.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+}
+
+.login {
+  width: 300px;
+  margin: 80px auto;
+  padding: 20px 80px;
+  opacity: 0.9;
+  background: #212122;
+  border-radius: 15px;
+}
+
+.headings {
+  font-family: "Neonderthaw", cursive;
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+    0 0 80px #00b3ff, 0 0 120px #00b3ff;
+}
+h2 {
+  animation: animate 3s linear infinite;
+}
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+h3 {
+  font-family: "Rock Salt", cursive;
+  font-size: 20px;
+  margin-bottom: 45px;
+}
+#netidbox {
+  padding: 10px 40px;
+  background-color: #606263;
+  color: black;
+  width: 220px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+#netidbox:hover {
+  background-color: #133f24;
+  color: white;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: rgb(75, 72, 72);
+}
+
+p {
+  margin-left: 20px;
+}
+
+label {
+  font-family: "Architects Daughter", cursive;
+  color: #fff;
+  font-size: 18px;
+}
+
+#loginsubmit {
+  background-color: #606263;
+  height: 50px;
+  width: 80%;
+  margin: 20px 10px 50px 20px;
+  border-color: #051d01;
+  border-width: 5px;
+  border-radius: 30px;
+  color: black;
+  font-family: "Architects Daughter", cursive;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+#loginsubmit:hover {
+  background-color: #38443d;
+  color: white;
+  cursor: pointer;
+}
+
+    </style>
+
+    <main class="login"> 
+        
+        <main class="headings">
+            <h2>Hey Bull!</h2>
+        </main>   
+
+    <main>
+        <form method="get" action="departments.html">
+            <label for="name">Username</label>
+            <input type="text" id="netidbox" name="name" placeholder="Enter your NetID" required maxlength="14"><br><br>
+            <label for="name">Password</label>
+            <input type="password" id="netidbox" name="password" placeholder="Enter your password" required maxlength="14"><br><br>
+            <input type="submit" id="loginsubmit" value="Log In">
+        </form>
+        <div>
+        <p style="display:inline-block; font-family: Neucha, cursive; font-weight: bold; margin-left: 50px;">Don't have an account?  </p><a href="register.html" style="display:inline-block; color: black; font-family: Neucha, cursive; font-weight: bold; margin-left: 5px;" > Register</a>
+        </div>
+    </main>
+   
+
+
+</body>
+
+</html>

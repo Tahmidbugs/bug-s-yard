@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" rel="stylesheet">
+</head>
+
+<style>
+  body{
+
+background-color: rgb(31, 28, 28);
+}
+    
+
+    .title{
+        padding: 5px;
+    }
+
+    img{
+        width: 75px;
+        border-radius: 50px;
+        display: inline-block;
+        margin: 5px;
+        height: 75px;
+    }
+    
+    .description{
+        margin: 3px;
+    }
+
+    .tutor-description{
+        margin: 20px 30px;
+    }
+    
+    
+    .content{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    span{
+        font-weight: bold;
+    }
+
+    .btn{
+        margin-top: 20px;
+    }
+
+    
+    .btn{
+      border-color: black;
+      color:aliceblue;
+    }
+
+    .btn:hover{
+      background-color:rgb(54, 109, 97);
+      border-color: black;
+    }
+
+    li:hover{
+      background-color:rgb(54, 109, 97);
+    }
+</style>
+
+
+<body class=" mb-2  text-white d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-expand-lg " style="background-color: black;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="background-color:rgb(54, 109, 97); color: rgb(141, 137, 137); padding-left: 5px;padding-right: 5px;">BULL'S YARD</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/" style="color: rgb(141, 137, 137)">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="departments.html" style="color: rgb(141, 137, 137)">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="engineering.html" style="color: rgb(141, 137, 137)">Majors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="courses.html" style="color: rgb(141, 137, 137)">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="professors.html" style="color: rgb(141, 137, 137)">Professors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="tutors.html" style="color: rgb(141, 137, 137)">Tutors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="clubs.html" style="color: rgb(141, 137, 137)">Clubs</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    
+
+  <div style="margin-left:380px; margin-top:40px; color:rgb(54, 109, 97)"><h2>Join student clubs and forward to excellence!</h2></div>
+
+  <div class="tutor-description">
+    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQE-8JJzumxbsg/company-logo_200_200/0/1615164906583?e=2147483647&v=beta&t=K6shtA3ooyYDQrjzhxYdwAUeckmY06tbZRPaMO6BI08" alt="SCP Image">
+    <span>Society of Competitive Programmers</span>
+    <p class="description">A series of weekly workshops happening twice a week that help students to develop coding logic and prepare for technical interviews</p>
+    <a href="https://bullsconnect.usf.edu/club_signup?group_type=&search=scp&category_tags=&order=name_asc">
+        <button type="button" class="btn btn-outline-info">Join now</button>
+    </a>
+</div>
+
+<div class="tutor-description">
+    <img src="data:image/png;base64,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" alt="SCP Image">
+    <span>Society of Hispanic Professionals</span>
+    <p class="description">The Society of Hispanic Professional Engineers (SHPE) is a nonprofit organization whose primary function is to increase and achieve the development of Hispanic students in the fields of engineering, mathematics, science and other technical professions.</p>
+    <a href="https://bullsconnect.usf.edu/SHPE/">
+        <button type="button" class="btn btn-outline-info">Join now</button>
+    </a>
+</div>
+
+<div class="tutor-description">
+    <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQH_IZ58PCEegQ/company-logo_200_200/0/1591397273211?e=2147483647&v=beta&t=geufbYUAk3ly2sO94QOmnG9Ekmn-Pl8v3DjyLn-5mQk" alt="ACM Image">
+    <span>Association for computer machinery</span>
+    <p class="description">Association for Computing Machinery (ACM) brings together computing educators, researchers, students and professionals to inspire dialogue, share resources, and address the field's challenges. </p>
+    <a href="https://bullsconnect.usf.edu/ACM/">
+        <button type="button" class="btn btn-outline-info">Join now</button>
+    </a>
+</div>

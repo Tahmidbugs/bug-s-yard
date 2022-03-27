@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://mcdn.wallpapersafari.com/medium/39/84/RQugfr.jpeg");
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+  }
+  
+  .login {
+    width: 300px;
+    margin: 110px auto;
+    padding: 20px 80px;
+    opacity: 0.9;
+    background: #212122;
+    border-radius: 15px;
+  }
+  
+  .headings {
+    font-family: "Neonderthaw", cursive;
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+      0 0 80px #00b3ff, 0 0 120px #00b3ff;
+  }
+  h2 {
+    animation: animate 3s linear infinite;
+    margin-right: 100px;
+  }
+  @keyframes animate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+  h3 {
+    font-family: "Rock Salt", cursive;
+    font-size: 20px;
+    margin-bottom: 45px;
+  }
+  #netidbox {
+    padding: 10px 40px;
+    background-color: #818586;
+    color: black;
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #netidbox:hover {
+    background-color: #4d5f54;
+    color: white;
+    cursor: pointer;
+  }
+  
+  ::placeholder {
+    color: rgb(37, 36, 36);
+  }
+  
+  label {
+    font-family: "Architects Daughter", cursive;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  #loginsubmit {
+    background-color: #606263;
+    height: 50px;
+    width: 80%;
+    margin: 20px 10px 50px 20px;
+    border-color: #051d01;
+    border-width: 5px;
+    border-radius: 30px;
+    color: black;
+    font-family: "Architects Daughter", cursive;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  #loginsubmit:hover {
+    background-color: #38443d;
+    color: white;
+    cursor: pointer;
+  }
+  

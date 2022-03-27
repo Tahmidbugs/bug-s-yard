@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" rel="stylesheet">
+</head>
+
+<style>
+    body{
+
+      background-color: rgb(43, 44, 43) ;
+    }
+
+
+    .header{
+        padding: 55px;
+
+    }
+
+    .title{
+        padding: 5px;
+    }
+
+    
+    .btn{
+      border-color: black;
+      color:rgb(54, 109, 97);
+    }
+
+    .btn:hover{
+      background-color:rgb(54, 109, 97);
+      border-color: black;
+    }
+    li:hover{
+      background-color: rgb(54, 109, 97);
+    }
+</style>
+
+
+<body class=" mb-2  text-white d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-expand-lg " style="background-color: black;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="background-color:rgb(54, 109, 97); color: rgb(141, 137, 137); padding-left: 5px;padding-right: 5px;">BULL'S YARD</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/" style="color: rgb(141, 137, 137)">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="departments.html" style="color: rgb(141, 137, 137)">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="engineering.html" style="color: rgb(141, 137, 137)">Majors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="courses.html" style="color: rgb(141, 137, 137)">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="professors.html" style="color: rgb(141, 137, 137)">Professors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="tutors.html" style="color: rgb(141, 137, 137)">Tutors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="clubs.html" style="color: rgb(141, 137, 137)">Clubs</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <!-- Your Columns HERE -->
+      <th scope="col">Name</th>
+      <th scope="col">Last</th>
+      <th scope="col">Email</th>
+      <th scope="col">Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Your rows inside the table HERE: -->
+    {%for item in file%}
+    <tr>
+      <td>{{item[0]}}</td>
+      <td>{{item[1]}}</td>
+      <td>{{item[2]}}</td>
+      <td>{{item[3]}}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+<footer class="mt-auto .bg-dark .text-white .btn-outline-light .form-white text-center">
+    <p>© 2022 USF Course Selector: Hackabull 2022</p>
+</footer>

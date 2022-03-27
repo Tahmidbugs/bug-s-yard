@@ -1,0 +1,13 @@
+Course Name,Course Description
+COP 2510 Programming Concepts,An examination of a modern programming language emphasizing programming concepts and design methodology.
+CDA 3103 Computer Organization,"Introduction to computer hardware, logic elements and Boolean algebra, computer arithmetic, the central processing unit, assembly language programming, input/output, and memory."
+COP 3514 Program Design,The class extends Students programming knowledge by systematically considering the concepts involved in program design and creation. Students will also build upon their previous programming experience by learning to use the C programming language in a networked environment.
+CDA 3201L Computer Logic Design Lab,Laboratory component of the Computer Logic and Design class.
+CDA 3201 Computer Logic Design,"CSE and EE majors. Others by special permission. Advanced coverage of Boolean Algebra, introduction to minimization of combinational logic circuits, analysis and synthesis of sequential circuits, testing of logic circuits and programmable logic devices."
+COP 4530 Data Structures,"Understand and implement fundamentals of concise data structure and organization for program efficiency, clarity and simplification. Implementation of different data types and structures. Understanding of current data structures. Functional programming concepts will be covered."
+COT 3100 Discrete Structures,"Introduction to set algebra, propositional calculus and finite algebraic structures as they apply to computer systems."
+CDA 4205 Computer Architecture,"Principles of the design of computer systems, processors, memories, and switches. Consideration of the register transfer representation of a computer, ALU’s and their implementation, control units, memory and I/O, and the hardware support of operation systems."
+CDA 4205L Computer Architecture,Laboratory component of the Computer Architecture class.
+COT 4400 Analysis of Algorithms,Design principles and analysis techniques applicable to various classes of computer algorithms frequently used in practice.
+CNT 4419 Secure Coding,"Principles and practices for secure computing and writing secure software, including software for performing information management and networking and communications."
+COP 4600 Operating Systems,"Introduction to systems programming. Design of operating systems. Concurrent processing, synchronization, and storage management policies."
